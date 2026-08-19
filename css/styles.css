@@ -17,3 +17,33 @@ body{
     background-color: gray;
     margin: 0 auto;
 }
+
+header{
+    background-color: darkblue;
+}
+
+a.logo{
+    display: inline-block;
+    width: 230px;
+}
+
+a.logo>img{
+    width: 100%;
+    object-fit: cover;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link, a:visited{
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
