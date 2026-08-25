@@ -47,3 +47,26 @@ a:link, a:visited{
     background-position: center;
     height: 300px;
 }
+
+h1{
+    color: #fff;
+    text-shadow: 2px 2px 2px #0b41f3;
+}
+
+figure{
+    width: 390px;
+    margin: 10px auto;
+}
+
+figure img{
+    width: 100%;
+}
+
+footer{
+    background-color: #222;
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+}
