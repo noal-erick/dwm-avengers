@@ -70,3 +70,33 @@ footer{
 footer p{
     color: white;
 }
+
+@media only screen and (min-width: 880px){
+    header{
+        height: 100px;
+    }
+
+    a.logo{
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    ul{
+        float: right;
+    }
+
+    li{
+        display: inline-block;
+        margin-top: 42px;
+        margin-right: 20px;
+    }
+
+    figure{
+        display: inline-block;
+        width: 48%
+    }
+
+
+}
