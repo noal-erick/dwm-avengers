@@ -97,6 +97,28 @@ footer p{
         display: inline-block;
         width: 48%
     }
+}
 
+@media only screen and (min-width: 1000px){
+    figure{
+        width: 32%;
+    }
 
+    .galeria{
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .banner{
+        height: 400px;
+    }
+
+    figure{
+        width: 23.8%;
+    }
+
+    .figure-grande{
+        width: 48%;
+    }
 }
